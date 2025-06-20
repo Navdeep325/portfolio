@@ -1014,24 +1014,28 @@
             <div class="contact-form card" data-aos="fade-up" data-aos-delay="300">
               <div class="card-body p-4 p-lg-5">
 
-              <form action="https://formspree.io/f/movwnlgn"
+       <form action="https://formspree.io/f/movwnlgn"
   method="POST" id="contact-form">
   <div class="row gy-4">
 
     <div class="col-12">
-      <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+      <label class="form-label">Your Name <span style="color: red;">*</span></label>
+      <input type="text" name="name" class="form-control" required>
     </div>
 
     <div class="col-12">
-      <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+      <label class="form-label">Your Email <span style="color: red;">*</span></label>
+      <input type="email" name="email" class="form-control" required>
     </div>
 
     <div class="col-12">
-      <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+      <label class="form-label">Subject <span style="color: red;">*</span></label>
+      <input type="text" name="subject" class="form-control" required>
     </div>
 
     <div class="col-12">
-      <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+      <label class="form-label">Message</label>
+      <textarea name="message" class="form-control" rows="6"></textarea>
     </div>
 
     <div class="col-12 text-center">
@@ -1084,6 +1088,7 @@
     }
   });
 </script>
+
 
 
               </div>
